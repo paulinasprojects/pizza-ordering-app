@@ -1,34 +1,45 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Pizza Ordering App
+This is a Full Stack Pizza Ordering App made with NextJs, Redux/Redux Toolkit and MongoDB.
 
-## Getting Started
+Live on: https://pizzza-ordering-app.herokuapp.com/
 
-First, run the development server:
+User:
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+You can go to the product page by clicking on one of the pizzas.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+You can choose from two toppings and quantity. 
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+When you choose what pizza and toppings you want click on `Add to cart`.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+Click on the cart on the top right and you will be on the cart page.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+You can pay with PayPal or Cash on Delivery.
 
-## Learn More
+When you paid you will be taken to the order page and there you can see the status of your order.
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Admin:
+Visit https://pizzza-ordering-app.herokuapp.com/admin/login
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+`username`:admin
 
-## Deploy on Vercel
+`password`:123456
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+You will be taken to the https://pizzza-ordering-app.herokuapp.com/admin page where you can view and delete all the products.Also you can change the status of the orders by clicking on the "Next Stage" button.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Go to the homepage and there you can add a new pizza from the modal "Add New Pizza".
+
+
+
+## Running on local machine 
+
+How to install:
+- Clone this repo.
+- `npm install` to install all req'd dependencies.
+- If you want to run it on a localhost machine change the urls in the files from https://pizzza-ordering-app.herokuapp.com/ to http://localhost:3000 or any port of your choice.
+- `npm run dev` to  start the local server.
+
+# Contact Info.
+- Direct Message.
+- Discord: polinadev#9984
+
